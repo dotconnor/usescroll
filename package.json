@@ -1,0 +1,22 @@
+{
+  "name": "usescroll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@storybook/react": "^4.0.12",
+    "@babel/core": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "react": "next",
+    "react-dom": "next"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
